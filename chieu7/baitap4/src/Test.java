@@ -2,12 +2,14 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] agr) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Press Enter to quit...");
-        input.nextLine();
-        System.out.print("Press Enter to qu2it...");
-
-        System.out.print("Press Enter to qu3it...");
+        double a, b;
+        if (a == 0)
+            if (b != 0)
+                System.out.println("Phuong trinh vo nghiem");
+            else
+                System.out.println("Phuong trinh co vo so nghiem");
+        else
+            System.out.println(-b / a);
 
     }
 }
