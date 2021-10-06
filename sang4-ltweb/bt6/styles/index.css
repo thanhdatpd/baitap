@@ -1,0 +1,158 @@
+body {
+    /* background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80); */
+    background-image: linear-gradient(135deg, #ff2d5e, #60a5f2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+
+.block {
+    z-index: 1;
+    background: #33333310;
+    position: fixed;
+    border-radius: 15px;
+}
+
+.block1 {
+    width: 30vh;
+    height: 40vh;
+    top: 0;
+    left: 0;
+    transform-origin: 0 100%;
+    transform: rotate(-30deg);
+}
+.block2 {
+    width: 60vh;
+    height: 80vh;
+    bottom: 0;
+    left: 10vw;
+    transform-origin: 0 100%;
+    transform: rotate(60deg);
+}
+.block3 {
+    width: 60vh;
+    height: 80vh;
+    top: 0;
+    right: -25vw;
+    transform-origin: 100% 100%;
+    transform: rotate(-30deg);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px !important;
+    border-radius: 20px;
+    height: 85%;
+    z-index: 50;
+}
+
+.laDangNhap {
+    align-self: center;
+    padding: 50px;
+    font-size: 30px;
+    font-family: "Noto Sans Display", sans-serif;
+}
+
+.oneField {
+    margin-bottom: 20px;
+}
+
+.labalinput {
+    font-size: small;
+}
+
+.wrapinputText {
+    border-bottom: 1px #afadad solid;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nhap {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 80%;
+}
+
+.forgot {
+    width: 100%;
+    text-align: right;
+}
+
+.forgota {
+    color: red;
+    text-decoration: none;
+}
+
+.divLogin {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.btnLogin {
+    /* background-image: linear-gradient(to right, red, rgb(45, 45, 240)); */
+    background-image: linear-gradient(to right, #ff2d5e, #60a5f2);
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 2s linear;
+}
+.btnLogin:hover {
+    background-image: linear-gradient(to right, #f7043d, #1f84f7);
+}
+
+.divLoginOther {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.loginWith {
+    font-size: small;
+}
+
+.icon {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bi-facebook {
+    color: #2f5b96;
+}
+.bi-twitter {
+    color: #00a3ed;
+}
+.bi-google {
+    color: #f33e3a;
+}
+
+.divNoAcc {
+    text-align: center;
+    bottom: 50px;
+    position: absolute;
+    align-self: center;
+}
+
+.btnSignin {
+    border: none;
+    text-transform: uppercase;
+    background: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+.btnSignin:hover {
+    background-color: #ff2d5e;
+}

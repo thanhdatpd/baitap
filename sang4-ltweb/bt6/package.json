@@ -1,0 +1,15 @@
+{
+  "name": "bt5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --no-notify --watch --server --file '*'",
+    "git": "git add . && git commit -m",
+    "postgit": "git push"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
